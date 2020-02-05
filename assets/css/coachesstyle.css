@@ -3,71 +3,65 @@
     padding: 0;
 }
 
-.header {
-    background-color: rgba(255, 255, 255);
-    height: 300px;
-    font-size: 0.8em;
-    margin-left: 0px;
-    margin-right: 0px;
-    min-width: 900px;
-}
-
-.main,
-.logo,
-.site_content,
-.footer {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.logo_img_layer1 {
-    background-size: cover;
-    background-image: url(/assets/img/Layer1.jpg);
-    height: 355px;
-    background-repeat: no-repeat;
-    padding-top: 20px;
+body {
+    font-size: 62.5%;
 }
 
 a {
     text-decoration: none;
 }
 
-.logo1 {
-    font: small-caps bold 40px/1 sans-serif;
-    color: rgb(4, 58, 114);
-    letter-spacing: 10px;
-    text-align: right;
-    margin-right: 150px;
-    margin-top: 300px;
-    line-height: 0;
+.header {
+    background-image: url(/assets/img/Layer1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    z-index: -1;
+
 }
 
-.logo2 {
+.logo {
+    display: block;
+    padding-top: 310px;
+    padding-bottom: 70px;
+   
+    
+}
+
+.text {
+    font: 4em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    width: 150px;
+    margin: 0 50px 0 450px;
+    
+}
+
+.text1 {
     font: 1.3em "Fira Sans", sans-serif;
     color: rgb(4, 58, 114);
-    text-align: left;
-    margin-left: 20px;
+    width: 390px;  
+    margin: 0 50px 0 50px;
+
 }
-
 .menubar {
-    margin-left: 100px;
-    margin-top: 20px;
-
+    width: 1200px;
+    margin: 0 auto;
 }
 
 ul.menu {
     float: center;
+    margin-top: 10px;
 }
 
 ul.menu li {
     float: left;
     padding: 0 0 0 9px;
     list-style: none;
-    margin: 3px 2px 0 0;
+    margin: 0px 2px 0 0;
 }
 
 ul.menu li a {
-    font: 1.4em "Fira Sans", sans-serif;
+    font: 1.6em "Fira Sans", sans-serif;
     color: rgb(4, 58, 114);
     display: block;
     padding: 5px 0px 5px 0px;
@@ -80,10 +74,6 @@ ul.menu li.selected a {
 
 ul.menu li a:hover {
     color: rgb(255, 0, 0);
-}
-
-hr {
-    border: solid 1px #f3f3f3;
 }
 
 .content {

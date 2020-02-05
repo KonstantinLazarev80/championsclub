@@ -21,23 +21,28 @@ a {
 }
 
 .logo {
-    padding: 320px 0 20px 0;
+    display: block;
+    padding-top: 310px;
+    padding-bottom: 70px;
+   
+    
 }
 
 .text {
-    font: 2em "Fira Sans", sans-serif;
+    font: 4em "Fira Sans", sans-serif;
     color: rgb(4, 58, 114);
-    width: 100px;
-    height: 5px;
-    padding-left: 480px;
+    width: 150px;
+    margin: 0 50px 0 450px;
+    
 }
 
 .text1 {
     font: 1.3em "Fira Sans", sans-serif;
     color: rgb(4, 58, 114);
-    width: 390px;
-    padding-top: 0;
-    padding-left: 20px;
+    width: 390px;  
+    margin: 0 50px 0 50px;
+    
+
 }
 
 .menubar {
