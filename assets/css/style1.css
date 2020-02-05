@@ -140,20 +140,20 @@ a {
 }
 
 .menubar {
-    margin-left: 100px;
-    margin-top: 20px;
+    width: 1000px;
+    margin: 0 auto;
 
 }
 
 ul.menu {
     float: center;
+    border-bottom: inset;
 }
 
 ul.menu li {
-    float: left;
     padding: 0 0 0 9px;
     list-style: none;
-    margin: 3px 2px 0 0;
+    margin: 380px 2px 0 0;
 }
 
 ul.menu li a {

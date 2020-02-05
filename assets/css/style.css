@@ -1,163 +1,64 @@
-html,
-body,
-div,
-span,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+* {
     margin: 0;
     padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
 }
 
 body {
-    line-height: 1.2;
-}
-
-ol {
-    padding-left: 1.4em;
-    list-style: decimal;
-}
-
-ul {
-    padding-left: 1.4em;
-    list-style: square;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
+    font-size: 62.5%;
 }
 
 a {
     text-decoration: none;
 }
 
-.logo1 {
-    font: small-caps bold 40px/1 sans-serif;
-    color: rgb(4, 58, 114);
-    letter-spacing: 10px;
-    text-align: right;
-    margin-right: 150px;
-    margin-top: 300px;
-    line-height: 0;
+.header {
+    background-image: url(/assets/img/Layer1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    z-index: -1;
+
 }
 
-.logo2 {
+.logo {
+    padding: 320px 0 20px 0;
+}
+
+.text {
+    font: 2em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    width: 100px;
+    height: 5px;
+    padding-left: 480px;
+}
+
+.text1 {
     font: 1.3em "Fira Sans", sans-serif;
     color: rgb(4, 58, 114);
-    text-align: left;
-    margin-left: 20px;
+    width: 390px;
+    padding-top: 0;
+    padding-left: 20px;
 }
 
 .menubar {
-    margin-left: 100px;
-    margin-top: 20px;
-
+    width: 1200px;
+    margin: 0 auto;
 }
 
 ul.menu {
     float: center;
+    margin-top: 10px;
 }
 
 ul.menu li {
     float: left;
     padding: 0 0 0 9px;
     list-style: none;
-    margin: 3px 2px 0 0;
+    margin: 0px 2px 0 0;
 }
 
 ul.menu li a {
-    font: 1.4em "Fira Sans", sans-serif;
+    font: 1.6em "Fira Sans", sans-serif;
     color: rgb(4, 58, 114);
     display: block;
     padding: 5px 0px 5px 0px;
@@ -172,44 +73,74 @@ ul.menu li a:hover {
     color: rgb(255, 0, 0);
 }
 
-.header {
-    background-image: url(/assets/img/Layer1.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
+.site_conten {
+    height: 1000px;
+    width: 1400px;
+    margin: 0 auto;
 
 }
 
-.contentbest figure {
+.site_conten img {
+    border-radius: 50%;
+    width: 30%;
+    float: left;
+
+}
+
+.best {
+    background-color: palegoldenrod;
     display: inline-block;
-    width: 300px;
-    height: 210px;
-    margin: 15px;
-    position: relative;
+    border: orangered;
+    border-width: 15px;
+    margin: 10px;
+    width: 230px;
+    height: 150px;
+    padding: 10px;
 }
 
-.contentbest figcaption {
-    position: absolute;
-    top: 15%;
-    bottom: 15%;
-    left: 0;
-    right: 0;
-    background-color: rgba(153, 153, 153, .9);
-    padding: 20px;
-    font-family: Titillium, Arial, sans-serif;
-    font-weight: 400;
-    font-size: .9em;
-    color: white;
-    opacity: 0;
-    transition: opacity .75s ease-out;
+.site_conten h1 {
+    padding: 0 0 10px 0;
+    text-align: center;
+    font: 1.5em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    margin: 0 0 0 0;
+
+}
+
+.site_conten p {
+    padding: 0 0 10px 0;
+    text-align: left;
+    font: 1.1em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    margin: 0 0 0 0;
+
 }
 
 .footer {
-    background-image: url(/assets/img/Layer3.jpg);
-    background-repeat: no-repeat;
-    background-position: center bottom;
     background-size: cover;
-    height: 400px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    background-image: url(/assets/img/Layer3.jpg);
+    width: 100%;
+    height: 350px;
+    padding: 0 0 5px 0;
+    text-align: center;
+    bottom: 0;
+    color: #a8aa94;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+}
+
+.footer p {
+    padding: 0 0 10px 0;
+    text-align: center;
+    font: 1.1em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    margin: 0 0 0 0;
+
+}
+
+
+.social {
+    background-position: center;
+    display: inline-block;
 }
